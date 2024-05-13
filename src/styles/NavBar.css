@@ -1,0 +1,123 @@
+.nav {
+    height: 7.5%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, .5);
+    opacity: 90%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-dark {
+    height: 7.5%;
+    width: 100%;
+    background-color: rgb(23, 36, 66);
+    box-shadow: 2px 2px 8px rgba(200, 212, 223, .25);
+    opacity: 90%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-lg {
+    height: 7.5%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, .5);
+    opacity: 90%;
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 10;
+}
+
+.left-nav {
+    height: 100%;
+    max-width: 1280px;
+    display: flex;
+
+    align-items: center;
+}
+
+.nav-dark-lg {
+    height: 7.5%;
+    width: 100%;
+    background-color: rgb(23, 36, 66);
+    box-shadow: 2px 2px 8px rgba(200, 212, 223, .25);
+    opacity: 90%;
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 10;
+}
+
+.logo {
+    position: relative;
+    height: 100%;
+    width: auto;
+    scale: 1.70;
+    margin-right: 3px;
+}
+
+.logo2 {
+    position: relative;
+    height: 100%;
+    width: auto;
+    scale: 1.70;
+    margin-right: 3px;
+}
+
+.logo-lg {
+    position: relative;
+    height: 100%;
+    width: auto;
+    scale: 1.70;
+    margin-right: 40px;
+}
+
+.logo2-lg {
+    position: relative;
+    height: 100%;
+    width: auto;
+    scale: 1.70;
+    margin-right: 40px;
+}
+
+.lg-switch {
+    margin-left: 10px;
+}
+
+.menu {
+    position: relative;
+    height: 100%;
+    width: auto;
+    scale: .60;
+}
+
+
+.menu2 {
+    position: relative;
+    height: 100%;
+    width: auto;
+    scale: .60;
+}
+
+.lg-link {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.lg-link-dark {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    cursor: pointer;
+}

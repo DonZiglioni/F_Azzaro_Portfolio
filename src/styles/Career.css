@@ -1,0 +1,78 @@
+.career {
+    height: 100%;
+    width: auto;
+    background-color: rgb(246, 248, 250);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.career-dark {
+    height: 100%;
+    width: auto;
+    background-color: rgb(10, 12, 23);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    position: relative;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 90%;
+}
+
+.title-dark {
+    position: relative;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    opacity: 90%;
+
+}
+
+.resume {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    height: 100%;
+    padding: 2em;
+    align-items: left;
+    padding-top: 75px;
+    max-width: 720px;
+}
+
+.ruler {
+    margin-top: -10px;
+    width: 100%;
+}
+
+.section-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #003972;
+}
+
+.text-dark {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #bbddff;
+}
+
+.horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.download-link {
+    padding-left: 15px;
+    height: 20px;
+}

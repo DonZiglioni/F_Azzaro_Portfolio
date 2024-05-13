@@ -1,0 +1,66 @@
+.switch {
+    border: 2px solid rgb(23, 23, 23);
+    height: 3rem;
+    width: 3rem;
+    margin-right: 1em;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    scale: .8
+}
+
+.switch2 {
+    border: 2px solid rgb(100, 120, 140);
+    height: 3rem;
+    width: 3rem;
+    margin-right: 1em;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    scale: .8
+}
+
+.sun {
+    height: 2em;
+    width: 2em;
+}
+
+.moon {
+    height: 2em;
+    width: 2em;
+}
+
+.line {
+    border: 1px solid black;
+    position: relative;
+    height: 100%;
+    width: 0;
+}
+
+.lightSwitch {
+    position: relative;
+    height: 90%;
+    width: 90%;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(13, 13, 13, 1);
+}
+
+.darkSwitch {
+    position: relative;
+    height: 90%;
+    width: 90%;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(23, 36, 66, .5);
+}

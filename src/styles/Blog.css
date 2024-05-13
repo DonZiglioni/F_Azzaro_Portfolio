@@ -1,0 +1,34 @@
+.blog {
+    height: 100vh;
+    width: auto;
+    background-color: rgb(246, 248, 250);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blog-dark {
+    height: 100vh;
+    width: auto;
+    background-color: rgb(10, 12, 23);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    position: relative;
+    font-size: xx-large;
+}
+
+.writing {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    height: 100%;
+    padding: 2em;
+    align-items: left;
+    padding-top: 75px;
+    max-width: 720px;
+
+}
