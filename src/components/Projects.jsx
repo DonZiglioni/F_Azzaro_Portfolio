@@ -30,24 +30,27 @@ function Projects({ changeTheme, theme, openMenu, menu }) {
                                     <img src={project} />
                                 </div>
                                 <hr className='ruler'></hr>
-                                <ProjectBox
-                                    title='Amaizing Puzzles'
-                                    img={apImg}
-                                    info='A jigsaw puzzle company ran entirely by atrificial inteligence!'
-                                    theme={theme}
-                                />
-                                <ProjectBox
-                                    title='Box of Dominoes API'
-                                    img={bodImg}
-                                    info='An API simulating a box of dominoes for everyone to enjoy!'
-                                    theme={theme}
-                                />
-                                <ProjectBox
-                                    title='GitHub'
-                                    img={github}
-                                    info='Links to over 75+ personal projects and repositories'
-                                    theme={theme}
-                                />
+                                <a href='https://www.amaizingpuzzles.com' target='_blank'>
+                                    <ProjectBox
+                                        title='Amaizing Puzzles'
+                                        img={apImg}
+                                        info='A jigsaw puzzle company ran entirely by atrificial inteligence!'
+                                        theme={theme}
+                                    /></a>
+                                <a href='https://www.boxofdominoes.com' target='_blank'>
+                                    <ProjectBox
+                                        title='Box of Dominoes API'
+                                        img={bodImg}
+                                        info='An API simulating a box of dominoes for everyone to enjoy!'
+                                        theme={theme}
+                                    /></a>
+                                <a href='https://github.com/DonZiglioni' target='_blank'>
+                                    <ProjectBox
+                                        title='GitHub'
+                                        img={github}
+                                        info='Links to over 75+ personal projects and repositories'
+                                        theme={theme}
+                                    /></a>
                             </div>
                             :
                             <div className='project-list-dark'>
@@ -56,24 +59,27 @@ function Projects({ changeTheme, theme, openMenu, menu }) {
                                     <img src={projectDark} />
                                 </div>
                                 <hr className='ruler'></hr>
-                                <ProjectBox
-                                    title='Amaizing Puzzles'
-                                    img={apImg}
-                                    info='A jigsaw puzzle company ran entirely by atrificial inteligence!'
-                                    theme={theme}
-                                />
-                                <ProjectBox
-                                    title='Box of Dominoes API'
-                                    img={bodImg}
-                                    info='An API simulating a box of dominoes for everyone to enjoy!'
-                                    theme={theme}
-                                />
-                                <ProjectBox
-                                    title='GitHub'
-                                    img={github2}
-                                    info='Links to over 75+ personal projects and repositories'
-                                    theme={theme}
-                                />
+                                <a href='https://www.amaizingpuzzles.com' target='_blank'>
+                                    <ProjectBox
+                                        title='Amaizing Puzzles'
+                                        img={apImg}
+                                        info='A jigsaw puzzle company ran entirely by atrificial inteligence!'
+                                        theme={theme}
+                                    /></a>
+                                <a href='https://www.boxofdominoes.com' target='_blank'>
+                                    <ProjectBox
+                                        title='Box of Dominoes API'
+                                        img={bodImg}
+                                        info='An API simulating a box of dominoes for everyone to enjoy!'
+                                        theme={theme}
+                                    /></a>
+                                <a href='https://github.com/DonZiglioni' target='_blank'>
+                                    <ProjectBox
+                                        title='GitHub'
+                                        img={github2}
+                                        info='Links to over 75+ personal projects and repositories'
+                                        theme={theme}
+                                    /></a>
                             </div>
                     }
                 </div>
@@ -98,24 +104,27 @@ function Projects({ changeTheme, theme, openMenu, menu }) {
                                     <img src={project} />
                                 </div>
                                 <hr className='ruler'></hr>
-                                <ProjectBox
-                                    title='Amaizing Puzzles'
-                                    img={apImg}
-                                    info='A jigsaw puzzle company ran entirely by atrificial inteligence!'
-                                    theme={theme}
-                                />
-                                <ProjectBox
-                                    title='Box of Dominoes API'
-                                    img={bodImg}
-                                    info='An API simulating a box of dominoes for everyone to enjoy!'
-                                    theme={theme}
-                                />
-                                <ProjectBox
-                                    title='GitHub'
-                                    img={github}
-                                    info='Links to over 75+ personal projects and repositories'
-                                    theme={theme}
-                                />
+                                <a href='https://www.amaizingpuzzles.com' target='_blank'>
+                                    <ProjectBox
+                                        title='Amaizing Puzzles'
+                                        img={apImg}
+                                        info='A jigsaw puzzle company ran entirely by atrificial inteligence!'
+                                        theme={theme}
+                                    /></a>
+                                <a href='https://www.boxofdominoes.com' target='_blank'>
+                                    <ProjectBox
+                                        title='Box of Dominoes API'
+                                        img={bodImg}
+                                        info='An API simulating a box of dominoes for everyone to enjoy!'
+                                        theme={theme}
+                                    /></a>
+                                <a href='https://github.com/DonZiglioni' target='_blank'>
+                                    <ProjectBox
+                                        title='GitHub'
+                                        img={github}
+                                        info='Links to over 75+ personal projects and repositories'
+                                        theme={theme}
+                                    /></a>
                             </div>
                             :
                             <div className='project-list-dark-lg'>
@@ -124,24 +133,27 @@ function Projects({ changeTheme, theme, openMenu, menu }) {
                                     <img src={projectDark} />
                                 </div>
                                 <hr className='ruler'></hr>
-                                <ProjectBox
-                                    title='Amaizing Puzzles'
-                                    img={apImg}
-                                    info='A jigsaw puzzle company ran entirely by atrificial inteligence!'
-                                    theme={theme}
-                                />
-                                <ProjectBox
-                                    title='Box of Dominoes API'
-                                    img={bodImg}
-                                    info='An API simulating a box of dominoes for everyone to enjoy!'
-                                    theme={theme}
-                                />
-                                <ProjectBox
-                                    title='GitHub'
-                                    img={github2}
-                                    info='Links to over 75+ personal projects and repositories'
-                                    theme={theme}
-                                />
+                                <a href='https://www.amaizingpuzzles.com' target='_blank'>
+                                    <ProjectBox
+                                        title='Amaizing Puzzles'
+                                        img={apImg}
+                                        info='A jigsaw puzzle company ran entirely by atrificial inteligence!'
+                                        theme={theme}
+                                    /></a>
+                                <a href='https://www.boxofdominoes.com' target='_blank'>
+                                    <ProjectBox
+                                        title='Box of Dominoes API'
+                                        img={bodImg}
+                                        info='An API simulating a box of dominoes for everyone to enjoy!'
+                                        theme={theme}
+                                    /></a>
+                                <a href='https://github.com/DonZiglioni' target='_blank'>
+                                    <ProjectBox
+                                        title='GitHub'
+                                        img={github2}
+                                        info='Links to over 75+ personal projects and repositories'
+                                        theme={theme}
+                                    /></a>
                             </div>
                     }
                 </div>
