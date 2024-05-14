@@ -10,6 +10,7 @@ import download from '../assets/download.svg';
 import download2 from '../assets/download-dark.svg';
 import InfoBox from './InfoBox.jsx';
 import DotGrid from './DotGrid';
+import FAResume from '../assets/Frank_Azzaro_Resume.pdf';
 
 function Career({ changeTheme, theme, openMenu, menu }) {
     return (
@@ -30,7 +31,7 @@ function Career({ changeTheme, theme, openMenu, menu }) {
                                 <hr className='ruler'></hr>
                                 <div className='horizontal'>
                                     <span className='text'>Download Resume: </span>
-                                    <img src={download} className='download-link' />
+                                    <a href={FAResume} download='Frank_Azzaro_Resume.pdf' target='_blank'><img src={download} className='download-link' /></a>
                                 </div>
                                 <div className='section-header'>
                                     <h1 className='title'>Employment</h1>
@@ -128,7 +129,7 @@ function Career({ changeTheme, theme, openMenu, menu }) {
                                 <hr className='ruler'></hr>
                                 <div className='horizontal'>
                                     <span className='text-dark'>Download Resume: </span>
-                                    <img src={download2} className='download-link' />
+                                    <a href={FAResume} download='Frank_Azzaro_Resume.pdf' target='_blank'><img src={download2} className='download-link' /></a>
                                 </div>
                                 <div className='section-header'>
                                     <h1 className='title-dark'>Employment</h1>
@@ -242,7 +243,7 @@ function Career({ changeTheme, theme, openMenu, menu }) {
                                 <hr className='ruler'></hr>
                                 <div className='horizontal'>
                                     <span className='text'>Download Resume: </span>
-                                    <img src={download} className='download-link' />
+                                    <a href={FAResume} download='Frank_Azzaro_Resume.pdf' target='_blank'><img src={download} className='download-link' /></a>
                                 </div>
                                 <div className='section-header'>
                                     <h1 className='title'>Employment</h1>
@@ -340,7 +341,7 @@ function Career({ changeTheme, theme, openMenu, menu }) {
                                 <hr className='ruler'></hr>
                                 <div className='horizontal'>
                                     <span className='text-dark'>Download Resume: </span>
-                                    <img src={download2} className='download-link' />
+                                    <a href={FAResume} download='Frank_Azzaro_Resume.pdf' target='_blank'><img src={download2} className='download-link' /></a>
                                 </div>
                                 <div className='section-header'>
                                     <h1 className='title-dark'>Employment</h1>
