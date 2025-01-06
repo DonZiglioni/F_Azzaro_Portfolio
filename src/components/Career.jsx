@@ -10,7 +10,7 @@ import download from '../assets/download.svg';
 import download2 from '../assets/download-dark.svg';
 import InfoBox from './InfoBox.jsx';
 import DotGrid from './DotGrid';
-import FAResume from '../assets/Frank_Azzaro_Resume.pdf';
+import FAResume from '../assets/v6_2025.pdf';
 
 function Career({ changeTheme, theme, openMenu, menu }) {
     return (

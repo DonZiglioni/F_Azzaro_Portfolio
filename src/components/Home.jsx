@@ -25,7 +25,7 @@ function Home({ changeTheme, theme, openMenu, menu }) {
                             <div className='container'>
                                 <img src={LogoBlack} className='logo-real' />
                                 <p className='heading-dark'>
-                                    I am a <b>Software Engineer, Developer, Audio Engineer,</b> and <b>Creator</b> who is passionate about Cyber Security, Computer Science, and Technology.
+                                    I am a <b>Software Engineer, Developer, Audio Engineer,</b> and <b>Creator</b> who is passionate about Cybersecurity, Computer Science, and Technology.
                                 </p>
 
                                 <p className='heading-dark'>
@@ -38,7 +38,7 @@ function Home({ changeTheme, theme, openMenu, menu }) {
                             <div className='container'>
                                 <img src={LogoWhite} className='logo-real' />
                                 <p className='heading'>
-                                    I am a <b>Software Engineer, Developer, Audio Engineer,</b> and <b>Creator</b> who is passionate about Cyber Security, Computer Science, and Technology.
+                                    I am a <b>Software Engineer, Developer, Audio Engineer,</b> and <b>Creator</b> who is passionate about Cybersecurity, Computer Science, and Technology.
                                 </p>
 
                                 <p className='heading'>
@@ -69,7 +69,7 @@ function Home({ changeTheme, theme, openMenu, menu }) {
                             <div className='container'>
                                 <img src={LogoBlack} className='logo-real' />
                                 <p className='heading-dark'>
-                                    I am a <b>Software Engineer, Developer, Audio Engineer,</b> and <b>Creator</b> who is passionate about Cyber Security, Computer Science, and Technology.
+                                    I am a <b>Software Engineer, Developer, Audio Engineer,</b> and <b>Creator</b> who is passionate about Cybersecurity, Computer Science, and Technology.
                                 </p>
 
                                 <p className='heading-dark'>
@@ -82,7 +82,7 @@ function Home({ changeTheme, theme, openMenu, menu }) {
                             <div className='container'>
                                 <img src={LogoWhite} className='logo-real' />
                                 <p className='heading'>
-                                    I am a <b>Software Engineer, Developer, Audio Engineer,</b> and <b>Creator</b> who is passionate about Cyber Security, Computer Science, and Technology.
+                                    I am a <b>Software Engineer, Developer, Audio Engineer,</b> and <b>Creator</b> who is passionate about Cybersecurity, Computer Science, and Technology.
                                 </p>
 
                                 <p className='heading'>

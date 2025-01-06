@@ -26,10 +26,10 @@ function Menu({ theme, openMenu }) {
                                 openMenu();
                                 navigate('/skillset');
                             }}>Skillset</p>
-                            <p className='nav-link' onClick={() => {
+                            {/* <p className='nav-link' onClick={() => {
                                 openMenu();
                                 navigate('/projects');
-                            }}>Projects</p>
+                            }}>Projects</p> */}
                             <p className='nav-link' onClick={() => {
                                 openMenu();
                                 navigate('/writing');
@@ -53,10 +53,10 @@ function Menu({ theme, openMenu }) {
                                 openMenu();
                                 navigate('/skillset');
                             }}>Skillset</p>
-                            <p className='nav-link-dark' onClick={() => {
+                            {/* <p className='nav-link-dark' onClick={() => {
                                 openMenu();
                                 navigate('/projects');
-                            }}>Projects</p>
+                            }}>Projects</p> */}
                             <p className='nav-link-dark' onClick={() => {
                                 openMenu();
                                 navigate('/writing');

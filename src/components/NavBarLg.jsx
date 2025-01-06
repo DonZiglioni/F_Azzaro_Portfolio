@@ -20,7 +20,7 @@ function NavBarLg({ changeTheme, theme, openMenu }) {
                             <a className='lg-link' onClick={() => navigate('/')}>About</a>
                             <a className='lg-link' onClick={() => navigate('/career')}>Career</a>
                             <a className='lg-link' onClick={() => navigate('/skillset')}>Skillset</a>
-                            <a className='lg-link' onClick={() => navigate('/projects')}>Projects</a>
+                            {/* <a className='lg-link' onClick={() => navigate('/projects')}>Projects</a> */}
                             <a className='lg-link' onClick={() => navigate('/writing')} >Writing</a>
                         </div>
                         <div className='lg-switch' onClick={() => changeTheme()}>
@@ -35,7 +35,7 @@ function NavBarLg({ changeTheme, theme, openMenu }) {
                             <a className='lg-link-dark' onClick={() => navigate('/')}>About</a>
                             <a className='lg-link-dark' onClick={() => navigate('/career')}>Career</a>
                             <a className='lg-link-dark' onClick={() => navigate('/skillset')}>Skillset</a>
-                            <a className='lg-link-dark' onClick={() => navigate('/projects')}>Projects</a>
+                            {/* <a className='lg-link-dark' onClick={() => navigate('/projects')}>Projects</a> */}
                             <a className='lg-link-dark' onClick={() => navigate('/writing')} >Writing</a>
                         </div>
                         <div className='lg-switch' onClick={() => changeTheme()}>
